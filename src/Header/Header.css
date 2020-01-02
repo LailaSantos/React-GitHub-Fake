@@ -1,0 +1,18 @@
+.container{
+	background: #c0c0c0;
+	display: flex;
+	justify-content:flex-start;
+	width:100%;
+	}
+	
+	.imagem{
+	width: 80px;
+	heigth:10px;
+	}
+	
+	.titles{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin: 10px;
+	}

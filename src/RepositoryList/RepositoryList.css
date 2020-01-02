@@ -1,0 +1,21 @@
+.container-list{
+	display:flex;
+	flex-direction:column;
+	margin:20px;
+}
+
+.lista{
+	margin: 10px;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	list-style-type: none;
+}
+
+.lista::first-line{
+	color:blue;
+	font-size:30px;
+	font-family:helvetica;
+}
+
+	
