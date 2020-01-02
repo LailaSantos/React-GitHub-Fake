@@ -11,7 +11,6 @@ state = {
 componentDidMount(){
 axios.get("https://api.github.com/orgs/reactjs").then(response => {
   this.setState({ data: response.data});
-  // console.log(response.data)
  });
 }
 
