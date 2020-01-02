@@ -11,7 +11,6 @@ class RepositoryList extends Component {
   componentDidMount() {
     axios.get("https://api.github.com/orgs/reactjs/repos").then(response => {
       this.setState({ repos: response.data });
-      // console.log(response.data);
     });
   }
 
